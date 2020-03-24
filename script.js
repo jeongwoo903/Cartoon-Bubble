@@ -79,7 +79,7 @@ function init() {
     // 객체를 담을 배열 생성
     circleArray = [];
 
-    // 1000개의 객체의 생성과 배열에 객체를 push함.
+    // 500개의 객체의 생성과 배열에 객체를 push함.
     for (let i = 0; i < 500; i++) {
         let r = Math.random() * 20 + 1;
         let x = Math.random() * (innerWidth - r * 2) + r;
